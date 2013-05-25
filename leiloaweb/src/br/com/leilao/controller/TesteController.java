@@ -12,7 +12,7 @@ public class TesteController {
 		ModelAndView view = new ModelAndView();
 		System.out.println("TESTANDO SPRING");
 		view.setViewName("site/resposta");
-		view.addObject("resposta", "RESPOSTA QUE O SPRING DEVOLVE PARA A VIEW");
+		view.addObject("resposta", "TESTANDO O GITHUB");
 		return view;
 	}
 
